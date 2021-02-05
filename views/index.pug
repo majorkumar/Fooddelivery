@@ -1,0 +1,103 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="The HTML5 Herald">
+  <meta name="author" content="SitePoint">
+  <title>#{"Food Delivery"}</title>
+  style
+        include ../static/style.css
+  
+</head>
+
+<body>
+    <nav id="navbar">
+        <div id="logo">
+            <img src="../static/logo.png" alt="Food Logo">
+        </div>
+        <ul>
+            <li class="item"><a href="/">Home</a></li>
+            <li class="item"><a href="/">Order</a></li>
+            <li class="item"><a href="/">Services</a></li>
+            <li class="item"><a href="/">About us</a></li>
+            <li class="item"><a href="/">Contact</a></li>
+        </ul>
+    </nav>
+    <section id="home">
+        <h1 class="head">Welcome to India's Best Food corner </h1>
+        <p>I like people who love to eat. They’re the best kind of people in the world.</p>
+        <p>Good people, good food, any time.</p>
+        <button class="btn" type="submit">Order Now</button>
+
+    </section>
+    <section id="Services-container">
+        <h1 class="center">Our Services</h1>
+        <div id="Services">
+            <div class="box">
+                <img src="../static/projectimage/pizza.jpeg" alt="Pizza's">
+                <h1 class="h1box">Food ordering</h1>
+                <p>Most Popular Margherita, Farm House, Peppy Paneer</p>
+            </div>
+            <div class="box">
+                <img src="../static/projectimage/ordering.jpeg" alt="Food Catering">
+                <h1 class="h1box">Food Catering</h1>
+                <p>Most Popular Dishes Hokkien Mee, Ramen, Pad Thai</p>
+            </div>
+            <div class="box">
+                <img src="../static/projectimage/delivery.jpeg" alt="Home delivery">
+                <h1 class="h1box">Home Delivery</h1>
+                <p>Most Popular veg soup, chau Soup, Tomato soup,</p>
+            </div>
+        </div>
+    </section>
+    <section id="Service-Partner">
+        <h1 class="center">Partner</h1>
+        <div id="client">
+            <div>
+                <img src="../static/projectimage/zomato.png" alt="zomato">
+            </div>
+            <div>
+                <img src="../static/projectimage/swiggy.png" alt="swiggy">
+            </div>
+            <div>
+                <img src="../static/projectimage/foodpanda.png" alt="foodpanda">
+            </div>
+            <div>
+                <img src="../static/projectimage/dominos.png" alt="dominos">
+            </div>
+        </div>
+    </section>
+    <section id="Contact">
+      <h1 class="center">Contact Us</h1>
+      <div id="Contact-box">
+          <form action="/" method="POST" onsubmit="alertmsg()">
+              <div class="form-group">
+                  <label for="name">Name: </label>
+                  <input type="text" name="names" id="name" placeholder="Enter your name">
+              </div>
+              <div class="form-group">
+                  <label for="email">Email: </label>
+                  <input type="email" name="email" id="email" placeholder="Enter your email">
+              </div>
+              <div class="form-group">
+                  <label for="phone">Phone Number: </label>
+                  <input type="phone" name="phone" id="phone" placeholder="Enter your phone">
+              </div>
+              <div class="form-group">
+                  <label for="message">Message: </label>
+                  <textarea name="message" id="message" cols="30" rows="5"></textarea>
+              </div>
+              <button type="submit">Submit</button>
+
+      </div>
+    </section>
+    
+    <footer id="footer">
+        <div class="center1">
+            Copyright &copy; www.chatpataorder.com All Rights Reserved.
+        </div>
+    </footer>
+</body>
+</html>
